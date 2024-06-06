@@ -88,7 +88,7 @@ class AboutUs extends StatelessWidget {
                       IconButton(
                         icon: const FaIcon(
                           FontAwesomeIcons.instagram,
-                          size: 45,
+                          size: 35,
                           color: Colors.pink,
                         ),
                         onPressed: () => _launchUrl(_insta),
