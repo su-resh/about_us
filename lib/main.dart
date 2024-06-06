@@ -32,7 +32,7 @@ class AboutUs extends StatelessWidget {
                     fontSize: 20,
                     color: Colors.black45,
                   ),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.justify,
                 ),
                 const SizedBox(height: 20),
                 const Text(
@@ -50,7 +50,7 @@ class AboutUs extends StatelessWidget {
                     fontSize: 20,
                     color: Colors.black45,
                   ),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.justify,
                 ),
                 const SizedBox(height: 20),
                 const Text(
@@ -68,7 +68,7 @@ class AboutUs extends StatelessWidget {
                       fontSize: 20,
                       color: Colors.black45,
                       overflow: TextOverflow.fade),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.justify,
                 ),
                 const SizedBox(height: 20),
                 Padding(
@@ -77,9 +77,9 @@ class AboutUs extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       IconButton(
-                        icon: const Icon(
-                          Icons.facebook,
-                          size: 45,
+                        icon: const FaIcon(
+                          FontAwesomeIcons.facebook,
+                          size: 35,
                           color: Colors.blue,
                         ),
                         onPressed: () => _launchUrl(_fb),
@@ -97,7 +97,7 @@ class AboutUs extends StatelessWidget {
                       IconButton(
                         icon: const FaIcon(
                           FontAwesomeIcons.telegram,
-                          size: 45,
+                          size: 35,
                           color: Colors.blue,
                         ),
                         onPressed: () => _launchUrl(_telegram),
@@ -106,7 +106,7 @@ class AboutUs extends StatelessWidget {
                       IconButton(
                         icon: const FaIcon(
                           FontAwesomeIcons.github,
-                          size: 45,
+                          size: 35,
                           color: Colors.black,
                         ),
                         onPressed: () => _launchUrl(_github),
@@ -115,7 +115,7 @@ class AboutUs extends StatelessWidget {
                       IconButton(
                         icon: const FaIcon(
                           FontAwesomeIcons.discord,
-                          size: 45,
+                          size: 35,
                           color: Colors.purple,
                         ),
                         onPressed: () => _launchUrl(_discord),
